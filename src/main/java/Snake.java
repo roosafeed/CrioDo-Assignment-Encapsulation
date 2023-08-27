@@ -153,10 +153,3 @@ class InvalidInitialPositionException extends SnakeException {
         super("The initial position is invalid");
     }
 }
-
-class InvalidSnakeTurnException extends SnakeException {
-
-    InvalidSnakeTurnException() {
-        super("The snake cannot turn back on itself");
-    }
-}
