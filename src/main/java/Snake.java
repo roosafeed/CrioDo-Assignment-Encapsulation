@@ -134,11 +134,6 @@ public class Snake {
     public String getSnake() {
         return getSnakeStr();
     }
-
-    public void setBoxSize(int w, int h) {
-        this.snakeBox[0] = w;
-        this.snakeBox[1] = h;
-    }
 }
 
 class InvalidSnakeSizeException extends SnakeException {
